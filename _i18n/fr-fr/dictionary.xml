@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="acb1895ec4c887192c38fae22446be51" category="summary">Analysez les coûts de vos dépenses de cloud computing et identifiez les économies potentielles directement auprès de BlueXP (anciennement Cloud Manager).</block>
+  <block id="1c87777fc8577c23e4c3acf6e05c6e76" category="doc">Documentation de calcul</block>
+  <block id="26e6e5fcbea5f9f1e96a87e1f4727945" category="summary">Réalisez quelques étapes pour analyser de manière approfondie les coûts de vos ressources de calcul cloud avec Cloud Analyzer de Spot.</block>
+  <block id="0a17377f2d00cfdc489595aab3f4cb1a" category="doc">Connectez Cloud Analyzer à votre compte AWS</block>
+  <block id="9e117c9326e0082792fc9db4022de033" category="paragraph">Connectez Cloud Analyzer à votre compte payeur AWS pour que vous puissiez commencer à optimiser vos coûts de calcul cloud.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Étapes</block>
+  <block id="02c7be9d19094be861ed6d5c868ab6d9" category="list-text">Dans le menu de navigation, sélectionnez *Extensions &gt; Cloud OPS*.</block>
+  <block id="82c17f884916312cf836be619c0f30b3" category="list-text">Cliquez sur *Ajouter les informations d'identification AWS pour démarrer*.</block>
+  <block id="d26bbc99ee4f03459f79c4515854e01c" category="list-text">Suivez les étapes indiquées sur la page pour connecter votre compte AWS :</block>
+  <block id="967a3c762720190aa22ef075598669fd" category="list-text">Connectez-vous à votre compte de gestion AWS.</block>
+  <block id="99e81cf07180944f57414af8f3cbf726" category="list-text">Configurez les rapports sur les coûts et l'utilisation sur le compte AWS.</block>
+  <block id="539ab65affb84e62793065d7703303c5" category="list-text">Exécuter le modèle CloudFormation.</block>
+  <block id="1d9c4b44100c952b0e042fa5de3ac24d" category="list-text">Coller le point RoleARN.</block>
+  <block id="59df016e94ef3d379d7e17a78c9353f4" category="inline-link">Afficher plus de détails sur ces étapes</block>
+  <block id="7d36f7ef084fb0934d1a1a86a6b22649" category="paragraph"><block ref="98a856f3a59c07c2e882d1b19866ae87" category="inline-link-rx"></block>.</block>
+  <block id="83473ceecf18da71bfa5696ac242d0bf" category="inline-image-macro">Capture d'écran affichant chaque champ disponible sur la page de connexion.</block>
+  <block id="fbe402e9579140daae0c0cddf837f4b4" category="paragraph"><block ref="fbe402e9579140daae0c0cddf837f4b4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c89159332a937ddbad2a51dd14e5c43d" category="inline-link-macro">analysez les coûts de calcul</block>
+  <block id="d22c459c62854d20003f9895eea37a89" category="paragraph">Cloud Analyzer commence à traiter les données de votre compte AWS. Si vous avez plusieurs comptes, Cloud Analyzer commence par des fonctionnalités en lecture seule pour tous les comptes liés sous le compte de gestion. Si vous souhaitez obtenir plus d'informations sur les économies potentielles pour ces comptes, vous devrez également les connecter. Vous trouverez plus de détails sur la connexion des comptes lorsque vous le souhaitez <block ref="3073dfe60a6ccd32fe5c511a4c14196f" category="inline-link-macro-rx"></block>.</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site de support NetApp à BlueXP, puis vous inscrire pour bénéficier du support.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">S'inscrire pour obtenir de l'aide</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site du support NetApp (NSS) à BlueXP, puis vous inscrire pour obtenir du support.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Présentation de l'inscription au support</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Il existe deux types d'inscription pour activer les droits d'assistance :</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">Enregistrement de votre abonnement au support pour les identifiants de compte BlueXP (votre numéro de série à 20 chiffres 960xxxxxxxxx se trouve sur la page des ressources de support de BlueXP).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Il sert d'ID d'abonnement unique pour tous les services de BlueXP. Chaque abonnement au support BlueXP au niveau du compte doit être enregistré.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Enregistrement des numéros de série Cloud Volumes ONTAP associés à un abonnement sur le marché de votre fournisseur cloud (numéros de série à 20 chiffres 909201xxxxxxxx).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Ces numéros de série sont généralement appelés _PAYGO - numéros de série_ et sont générés par BlueXP au moment du déploiement de Cloud Volumes ONTAP.</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">L'enregistrement des deux types de numéros de série offre des fonctionnalités telles que l'ouverture de tickets de support et la génération automatique de tickets.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">La façon dont vous vous inscrivez dépend de votre présence ou de votre présence chez un client ou un partenaire nouveau ou existant.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">Client ou partenaire existant</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">En tant que client ou partenaire NetApp, vous pouvez utiliser votre compte SSO du site de support NetApp pour effectuer les enregistrements suivants. Dans le tableau de bord support, BlueXP fournit une page *NSS Management* où vous pouvez ajouter votre compte NSS. Une fois votre compte NSS ajouté, BlueXP enregistre automatiquement ces numéros de série pour vous.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">Découvrez comment ajouter votre compte NSS</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">Nouveaux partenaires NetApp</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">Si vous êtes nouveau chez NetApp, vous devez enregistrer votre numéro de série BlueXP sur le site d'inscription du support NetApp. Une fois que vous avez terminé cette inscription et créé un nouveau compte NSS, vous pouvez utiliser ce compte dans BlueXP pour vous inscrire automatiquement à l'avenir.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">Découvrez comment vous inscrire auprès de NetApp</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">Ajouter un compte NSS à BlueXP</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">Le tableau de bord du support vous permet d'ajouter et de gérer vos comptes du site de support NetApp pour les utiliser avec Cloud Manager.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si vous avez un compte au niveau du client, vous pouvez ajouter un ou plusieurs comptes NSS.</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">Si vous avez un compte partenaire ou revendeur, vous pouvez ajouter un ou plusieurs comptes NSS, mais ils ne peuvent pas être ajoutés en même temps que les comptes au niveau du client.</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône aide et sélectionnez *support*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Capture d'écran du menu aide où support est la première option répertoriée</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Cliquez sur *NSS Management &gt; Ajouter un compte NSS*.</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Lorsque vous y êtes invité, cliquez sur *Continuer* pour être redirigé vers une page de connexion Microsoft.</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utilise Microsoft Azure Active Directory comme fournisseur d'identités pour les services d'authentification spécifiques au support et aux licences.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Sur la page de connexion, indiquez l'adresse e-mail et le mot de passe que vous avez enregistrés sur le site de support NetApp pour réaliser le processus d'authentification.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Ces actions permettent à BlueXP d'utiliser votre compte NSS pour des opérations telles que le téléchargement de licences, la vérification de la mise à niveau logicielle et les inscriptions de support futures.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Notez ce qui suit :</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">Le compte doit être un compte de niveau client (et non un compte invité ou temporaire).</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Une icône de trois points horizontaux</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">Une fois la connexion établie, NetApp stockera le nom d'utilisateur NSS. Il s'agit d'un ID généré par le système qui correspond à votre courrier électronique. Sur la page *NSS Management*, vous pouvez afficher votre courriel à partir du <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *mettre à jour les informations d'identification* dans le <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu. Cette option vous invite à vous reconnecter.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">Inscrivez-vous auprès de NetApp</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">Le fait de vous inscrire au support NetApp dépend de la présence ou non d'un compte sur le site de support NetApp (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Client existant avec un compte NSS</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Si vous êtes client NetApp avec un compte NSS, il vous suffit de vous inscrire pour obtenir du support dans BlueXP.</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">Si ce n'est déjà fait, ajoutez votre compte NSS à BlueXP.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Sur la page *Ressources*, cliquez sur *s'inscrire au support*.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">Capture d'écran indiquant le numéro de série d'un compte et l'option Register pour le support</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Client existant mais aucun compte NSS</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">Si vous êtes déjà client NetApp avec des licences et des numéros de série existants mais que _no_ NSS, il vous suffit de créer un compte NSS.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Formulaire d'inscription de l'utilisateur du site de support NetApp</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Créez un compte sur le site de support NetApp en complétant le<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Veillez à sélectionner le niveau d'utilisateur approprié, qui est généralement *client/utilisateur final NetApp*.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Veillez à copier le numéro de série du compte BlueXP (960xxxx) utilisé ci-dessus pour le champ Numéro de série. Le traitement du compte sera ainsi accéléré.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Découvrez la toute nouvelle gamme NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Si vous êtes nouveau chez NetApp et que vous ne disposez pas d'un compte NSS, effectuez chacune des étapes ci-dessous.</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">Recherchez le numéro de série de votre compte Cloud Manager sur la page d'inscription au support.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Site d'inscription au support NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Accédez à<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> Et sélectionnez *je ne suis pas un client NetApp enregistré*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Remplissez les champs obligatoires (ceux avec des astérisques rouges).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Dans le champ *Product Line*, sélectionnez *Cloud Manager*, puis votre fournisseur de facturation applicable.</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">Copiez le numéro de série de votre compte Cloud Manager depuis l'étape 2 ci-dessus, vérifiez la sécurité, puis lisez la Déclaration de confidentialité des données NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Un e-mail est immédiatement envoyé à la boîte aux lettres fournie pour finaliser cette transaction sécurisée. Assurez-vous de vérifier vos dossiers de courrier indésirable si l'e-mail de validation n'arrive pas dans quelques minutes.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confirmez l'action à partir de l'e-mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">La confirmation de la soumission de votre demande à NetApp et vous recommande de créer un compte sur le site de support NetApp.</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">Veillez à copier le numéro de série du compte Cloud Manager (960xxxx) utilisé ci-dessus pour le numéro de série. Le traitement du compte sera ainsi accéléré.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp devrait vous contacter au cours de ce processus. Il s'agit d'un exercice d'intégration unique pour les nouveaux utilisateurs.</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">Une fois votre compte sur le site de support NetApp, vous pouvez accéder à BlueXP et ajouter ce compte NSS pour les inscriptions futures.</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp prend en charge BlueXP de plusieurs façons. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtenez de l'aide</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp prend en charge BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
+  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">Auto-assistance</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Ces options sont disponibles gratuitement, 24 heures sur 24, 7 jours sur 7 :</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de connaissances</block>
+  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Recherchez dans la base de connaissances BlueXP des articles utiles pour résoudre les problèmes.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Communautés</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Rejoignez la communauté BlueXP pour suivre des discussions en cours ou en créer de nouveaux.</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentation</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">La documentation BlueXP que vous consultez actuellement.</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Courrier électronique :ng-cloudmanager-feedback@netapp.com[E-mail de commentaires]</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Nous accordons une grande importance à vos commentaires. Envoyez vos commentaires pour nous aider à améliorer BlueXP.</block>
+  <block id="0659d428df833a806e29e65e632d380a" category="section-title">Support NetApp</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Outre les options d'auto-support mentionnées ci-dessus, vous pouvez travailler avec un spécialiste du support NetApp pour résoudre tous les problèmes après avoir activé le service de support.</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">Découvrez comment vous inscrire à de l'aide</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">Pour utiliser la fonction *Créer un cas*, vous devez d'abord effectuer un enregistrement unique de votre numéro de série d'ID de compte BlueXP (par exemple 960xxxx) avec NetApp. <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">Dans BlueXP, cliquez sur *aide &gt; support*.</block>
+  <block id="f5052c65917d7341726235d4d4941461" category="list-text">Choisissez l'une des options disponibles sous support technique :</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">Cliquez sur *appelez-nous* si vous souhaitez parler avec quelqu'un au téléphone. Vous serez dirigé vers une page netapp.com qui répertorie les numéros de téléphone que vous pouvez appeler.</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">Cliquez sur *Créer un dossier* pour ouvrir un dossier auprès des spécialistes du support NetApp :</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*Compte sur le site de support NetApp* : sélectionnez le compte NSS applicable associé à la personne qui ouvre le dossier de support. Cette personne sera le contact principal avec NetApp en plus de l'e-mail ci-dessous.</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">Si vous ne voyez pas votre compte NSS, vous pouvez accéder à l'onglet *NSS Management* de la section support de BlueXP pour l'ajouter.</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service* : sélectionnez le service auquel le problème est associé. Par exemple, BlueXP lorsqu'il est spécifique à un problème de support technique avec des flux de travail ou des fonctionnalités au sein du service.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Environnement de travail* : si applicable au stockage, sélectionnez *Cloud Volumes ONTAP* ou *sur site*, puis l'environnement de travail associé.</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">La liste des environnements de travail est comprise dans le cadre du compte, de l'espace de travail et du connecteur BlueXP que vous avez sélectionnés dans la bannière supérieure du service.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Priorité du cas* : choisissez la priorité du cas, qui peut être faible, Moyen, élevé ou critique.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Pour en savoir plus sur ces priorités, passez votre souris sur l'icône d'information située à côté du nom du champ.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Description du problème* : fournir une description détaillée de votre problème, y compris les messages d'erreur ou les étapes de dépannage applicables que vous avez effectués.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Adresses e-mail supplémentaires*: Entrez des adresses e-mail supplémentaires si vous souhaitez informer quelqu'un d'autre de ce problème.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Capture d'écran du formulaire Créer un dossier qui vous permet de créer un dossier auprès du support NetApp.</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Une fenêtre contextuelle contenant votre numéro de dossier de support s'affiche. Un spécialiste du support NetApp va étudier votre dossier et vous recontacterons très rapidement.</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Pour consulter l'historique de vos dossiers d'assistance, vous pouvez cliquer sur *Paramètres &gt; Chronologie* et rechercher les actions nommées "Créer un dossier de support". Un bouton à l'extrême droite vous permet de développer l'action pour voir les détails.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Il est possible que vous rencontriez le message d'erreur suivant lors de la création d'un dossier :</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">« Vous n'êtes pas autorisé à créer un dossier pour le service sélectionné »</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">Cette erreur peut signifier que le compte NSS et la société d'enregistrement auquel il est associé n'est pas la même société d'enregistrement pour le numéro de série du compte BlueXP (par exemple 960xxxx) ou le numéro de série de l'environnement de travail. Vous pouvez consulter votre liste de comptes NSS en haut du formulaire *Créer un dossier* pour trouver la correspondance appropriée, ou vous pouvez demander de l'aide en utilisant l'une des options suivantes :</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Utilisez le chat du produit</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Soumettre un dossier non technique à<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="0110949a431061ee668054b5ab98627e" category="summary">Une fois que vous avez connecté votre compte, consultez une analyse des coûts de vos ressources de cloud computing pour obtenir des informations sur les coûts cloud passés, actuels et futurs.</block>
+  <block id="2a4220102e5972b56988182c09f604aa" category="doc">Analysez les coûts de calcul</block>
+  <block id="cbd3f934260df2829bad2ed4e0f06fd9" category="paragraph">Une fois votre compte connecté, consultez une analyse des coûts des ressources de cloud computing pour obtenir une vue précise des coûts passés, actuels et futurs du cloud.</block>
+  <block id="135dc5daa0877864eea105ddf0b69fac" category="section-title">Afficher une analyse des coûts</block>
+  <block id="83457133a0ef330b6cf07b6b359318bf" category="list-text">Cliquez sur *Compute*.</block>
+  <block id="75f0eecd0fdb097a7d4b1e2f8e514d51" category="list-text">Consultez l'analyse des coûts pour obtenir des informations sur les coûts de calcul.</block>
+  <block id="605bcddd6e3aa6a95eaced2f52a139b0" category="inline-image-macro">Capture d'écran qui montre la page analyse des coûts dans BlueXP. Cette page contient les informations décrites dans le texte ci-dessous.</block>
+  <block id="a878c57286792575efcb3c7b7e558681" category="paragraph"><block ref="a878c57286792575efcb3c7b7e558681" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3f994038d6dd09b875518b9b5d38a005" category="list-text">Coût mois à ce jour</block>
+  <block id="95a217721be0bcb767d045a065ccf8aa" category="list-text">Coût total de vos charges de travail depuis le début du mois en cours.</block>
+  <block id="1cc2cf546407159fc46856165777a76d" category="list-text">Coûts prévus</block>
+  <block id="a710a8ef9275bd55e0bc8125f0217049" category="list-text">Le coût prévu à la fin du mois, d'après l'analyse de votre modèle d'utilisation.</block>
+  <block id="faeccef940f463467d447e92cc1dfd2e" category="list-text">Économies manquées de la semaine dernière</block>
+  <block id="c8d9648f3c9f70333dd7f7c046f73114" category="list-text">Des économies qui auraient pu être réalisées au cours des sept derniers jours grâce à l'optimisation des instances SPOT et des réservations.</block>
+  <block id="f7c5dd70e9abbb23cdb81ee75dc3127d" category="list-text">Efficacité des dépenses pour un compte AWS</block>
+  <block id="b25c45f4ba2e6148a5a227e7c66eaf84" category="list-text">Les 10 plus grands comptes selon le plus grand montant estimé d'économies supplémentaires.</block>
+  <block id="bc10c46f791a5ed5a97c400fda3a64d6" category="paragraph">Chaque compte se voit attribuer un score d'efficacité en fonction des économies actuelles et potentielles supplémentaires. Les économies supplémentaires estimées indiquent la somme qui peut être économisée en utilisant les instances ponctuelles et réservées.</block>
+  <block id="46153b60daff1c72219f289abfb3a3f7" category="paragraph">Vous pouvez prendre les mesures suivantes pour optimiser davantage vos comptes :</block>
+  <block id="c1d68901145b2010b1a8aeba75bc991c" category="list-text">*Afficher les détails*: Affichez vos possibilités d'optimisation des coûts en accédant à Cloud Analyzer de Spot.</block>
+  <block id="ddb875f7987b405235cbee12d6aae606" category="list-text">*Connect* : permet de connecter un compte qui n'est pas encore géré. Vous serez dirigé vers l'assistant qui connecte le compte.</block>
+  <block id="6d3eb204453d122284ed4a432cfdd72a" category="list-text">Principaux comptes AWS</block>
+  <block id="7fb07d9d0284fd6863ef2a7db76e04cf" category="list-text">Il s'agit d'un graphique à barres indiquant les dix principaux comptes en fonction de leur coût. Le graphique est basé sur les 30 derniers jours de l'activité de dépense.</block>
+  <block id="3141db86bc2665181620f829e8eb01a8" category="inline-link">Découvrez la page d'analyse des coûts disponible dans le Cloud Analyzer de Spot</block>
+  <block id="f87962acab06efc931371dbba9b655f5" category="paragraph"><block ref="0b7683cbc9f0ee5f5a4a05bb1d598a4b" category="inline-link-rx"></block>.</block>
+  <block id="880161807749301ac59aa2e2e50748e8" category="section-title">Obtenez une analyse complète</block>
+  <block id="a4fb91966a6fc1ddb81d36dbaad62eb6" category="paragraph">Accédez à Cloud Analyzer pour plus d'analyse et de recommandations.</block>
+  <block id="cdb47ab3dcbc5b978ba715b20ca2474d" category="paragraph">Cliquez sur *Get Full Analysis* à tout moment pour accéder à plus de graphiques et d'analyses, des recommandations détaillées, une description de l'optimisation des cas d'utilisation (conteneurs, ElasticApps, et réservations), et plus encore.</block>
+  <block id="3f833690ee7503fbe541b6256b3d6807" category="paragraph">Voici un exemple de ce que vous verrez dans Cloud Analyzer :</block>
+  <block id="0df007262bf194f46eb1953f4f3c7078" category="inline-image-macro">Capture d'écran affichant la page d'analyse des coûts dans Cloud Analyzer de Spot.</block>
+  <block id="2acab5c4763d0543a1176c40374553cd" category="paragraph"><block ref="2acab5c4763d0543a1176c40374553cd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fbe408c237f5b1c0b80f1f32004958d8" category="inline-link">Consultez la page produit de Cloud Analyzer pour en savoir plus sur ses fonctionnalités</block>
+  <block id="be047dc506ce8de907952c21921ad701" category="list-text"><block ref="be047dc506ce8de907952c21921ad701" category="inline-link-rx"></block></block>
+  <block id="17dd96462b10711049d52dedde6ddc2b" category="inline-link">Consultez la documentation de Spot pour obtenir de l'aide sur Cloud Analyzer</block>
+  <block id="745d17f34ad4743fc8506242741c7c95" category="list-text"><block ref="745d17f34ad4743fc8506242741c7c95" category="inline-link-rx"></block></block>
+  <block id="0ed85f3e49fbdcacf7c6eafed5fe4b1d" category="summary">En exploitant le service Cloud Analyzer de Spot, BlueXP peut vous fournir une analyse des coûts généraux de vos dépenses en ressources de calcul cloud et identifier les économies potentielles.</block>
+  <block id="dc512bfecf857e8dee6ac30c7a237a2f" category="doc">Découvrez le service de calcul</block>
+  <block id="ea197bae82effb87bc75fbe595602d2b" category="inline-link">Service SPOT Cloud Analyzer</block>
+  <block id="6ff9a94254ce4f01bfba1bf618b4a71c" category="paragraph">Valorisation<block ref="4b96c8339310a566633babc222b55825" category="inline-link-rx"></block>, BlueXP peut vous fournir une analyse de haut niveau des coûts de vos dépenses de calcul dans le cloud et identifier les économies potentielles.</block>
+  <block id="3fb7a38542fc8dc9bd67775c1efa0754" category="paragraph">Cloud Analyzer est une solution de gestion d'infrastructure cloud qui utilise des fonctions d'analytique avancée pour vous donner une visibilité sur les coûts cloud. Il vous montre où vous pouvez optimiser ces coûts et vous permet d'implémenter cette optimisation à l'aide du portefeuille de produits d'optimisation continue de Spot en quelques clics seulement.</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">Caractéristiques</block>
+  <block id="b13786f788868ed1bede397373dc9471" category="list-text">Une analyse des coûts qui indique les coûts actuels du mois, les coûts mensuels prévus et les économies manquées</block>
+  <block id="22940f2df588dbac7740199a7b1c8cc9" category="list-text">Vue de l'efficacité des dépenses par compte, y compris des économies supplémentaires estimées</block>
+  <block id="721a2bc621b10ff4fc87abb9ef228a1c" category="list-text">Lien vers Cloud Analyzer de Spotqu'à NetApp pour des informations plus détaillées sur les dépenses de l'ensemble des comptes</block>
+  <block id="902e65d33784bd8924eb05e622aa2dda" category="section-title">Fournisseurs cloud pris en charge</block>
+  <block id="c2a13a8b969b516ac9af28a61843732c" category="paragraph">Ce service est pris en charge par AWS.</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Le coût</block>
+  <block id="442a1ebc0b1897741c68b149d0cff869" category="paragraph">Il n'y a pas de frais d'utilisation de ce service par BlueXP.</block>
+  <block id="7729b44167439e24787c999afabf9b49" category="section-title">Fonctionnement de Cloud Analyzer avec BlueXP</block>
+  <block id="da4f6f67f2d6874fa25ae3476a15be79" category="paragraph">À un niveau élevé, l'intégration de Cloud Analyzer avec BlueXP fonctionne comme suit :</block>
+  <block id="1fdce7e9a0a4116c0c33b13e949d0e94" category="list-text">Vous cliquez sur *Compute* et connectez votre compte de gestion AWS.</block>
+  <block id="375b86c47403de1db7caffdd4c5ddfe6" category="list-text">NetApp configure votre environnement comme suit :</block>
+  <block id="c3c918d3946255bf9b03b6e74b5b3f36" category="list-text">Crée une organisation dans la plateforme Spot.</block>
+  <block id="160fee406155d1c4308599be28a10850" category="list-text">Envoie un e-mail de bienvenue à Spot.</block>
+  <block id="3a8d3e2363f0495ab293d54bebc7e4dd" category="paragraph">Vous pouvez vous connecter au service Spot à l'aide des mêmes informations d'identification à connexion unique que celles que vous utilisez avec BlueXP.</block>
+  <block id="d68a9d5829a20c130e867fef2a4695c6" category="list-text">Cloud Analyzer commence à traiter les données de votre compte AWS.</block>
+  <block id="fea17a3edb0c3ee07348be9d64fa874a" category="list-text">Dans BlueXP, la page de calcul est actualisée et vous utilisez les informations pour obtenir des informations exploitables sur les coûts cloud passés, actuels et futurs.</block>
+  <block id="d324de754d17bd272e8971296440d6f6" category="list-text">Vous cliquez sur *obtenir une analyse complète* à tout moment pour accéder à Cloud Analyzer de Spot, qui vous offre une analyse complète de vos dépenses en cloud et des opportunités d'économies.</block>
+  <block id="4c5d94eb4dc4bff93f6a96a08ab7b244" category="section-title">Sécurité des données</block>
+  <block id="927d8afbddd6abdbda7791916303bd5e" category="paragraph">Les données Cloud Analyzer sont chiffrées au repos et aucun identifiant n'est stocké pour n'importe quel compte.</block>
+  <block id="77c0115810e9ed3bfd3337acc96198fd" category="summary">Découvrez les nouveautés du service de calcul dans BlueXP (anciennement Cloud Manager).</block>
+  <block id="490414e0366b091220802d406e52c076" category="doc">Quoi de neuf</block>
+  <block id="7ee45649520b61796809750e472a8000" category="section-title">7 décembre 2020</block>
+  <block id="9dc245f64def9d62941e9ee3f4af4adb" category="section-title">Navigation entre Cloud Manager et Spot</block>
+  <block id="429b7972d23af5e411304108791f1c6c" category="paragraph">La navigation entre Cloud Manager et Spot devient plus simple.</block>
+  <block id="6673d1ba63d3b88416bb57a52f24edaf" category="paragraph">Une nouvelle section *Storage Operations* dans Spot vous permet de naviguer directement vers Cloud Manager. Une fois terminé, vous pouvez revenir à Spot à partir de l'onglet *Compute* de Cloud Manager.</block>
+  <block id="3d54f0f13a2b982305cfb676b5efc25c" category="section-title">18 octobre 2020</block>
+  <block id="776903deac41433ca593263c8812b21c" category="section-title">Présentation du service de calcul</block>
+  <block id="8ecc68a9339de03fc0f6e65490a53645" category="inline-link">Spot's Cloud Analyzer</block>
+  <block id="94bdad82453d71da22fcd69f47559c1c" category="paragraph">Valorisation<block ref="f6403c1f0596662bb11f11c4ddde243f" category="inline-link-rx"></block>, Cloud Manager peut désormais fournir une analyse des coûts généraux de vos dépenses de calcul dans le cloud et identifier les économies potentielles. Ces informations sont disponibles dans le service *Compute* de Cloud Manager.</block>
+  <block id="0947726e3c301f45f25d6d4b3295fcec" category="inline-link">En savoir plus sur le service de calcul</block>
+  <block id="b70ff2217d4c493d72369bc7013d42a1" category="paragraph"><block ref="0d930208c139fddb05408afa8bb5cf71" category="inline-link-rx"></block>.</block>
+  <block id="6ae18045fc1ab0bf7898b13f3ef31c9a" category="inline-image-macro">Capture d'écran affichant la page d'analyse des coûts dans Cloud Manager</block>
+  <block id="dfe5d33062cb5ad4c4036bb7e93ff63e" category="paragraph"><block ref="dfe5d33062cb5ad4c4036bb7e93ff63e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Mentions légales</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Les mentions légales donnent accès aux déclarations de copyright, aux marques, aux brevets, etc.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Droits d'auteur</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marques déposées</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, le logo NETAPP et les marques mentionnées sur la page des marques commerciales NetApp sont des marques commerciales de NetApp, Inc. Les autres noms de sociétés et de produits peuvent être des marques commerciales de leurs propriétaires respectifs.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevets</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Vous trouverez une liste actuelle des brevets appartenant à NetApp à l'adresse suivante :</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politique de confidentialité</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Source ouverte</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Les fichiers de notification fournissent des informations sur les droits d'auteur et les licences de tiers utilisés dans le logiciel NetApp.</block>
+  <block id="bcb152582247346e2f453fce02c1fc3c" category="inline-link-macro">Notice pour BlueXP 3.9</block>
+  <block id="03f975e839e4278228720a5d19656288" category="paragraph"><block ref="03f975e839e4278228720a5d19656288" category="inline-link-macro-rx"></block></block>
+  <block id="fc9195dd2727e87e1a0e146782847649" category="sidebar">Calculer les documents</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notes de mise à jour</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Commencez</block>
+  <block id="39b47babddc2784c0d74d47260b51730" category="sidebar">Connectez votre compte AWS</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Connaissances et support</block>
+  <block id="3333dce1554e82e74322ec5666134c71" category="sidebar">Utiliser le service de calcul</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Communauté sur les blogs</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Communauté NetApp</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog BlueXP</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toute la documentation BlueXP</block>
+</blocks>

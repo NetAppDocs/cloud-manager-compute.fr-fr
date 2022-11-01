@@ -1,0 +1,57 @@
+---
+settings:
+  name: Compute
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: fr-fr,us-en,ja-jp,zh-cn,zh-tw,ko-kr,de-de
+sidebar:
+  entries:
+  - title: Calculer les documents
+    url: "/index.html"
+  - title: Notes de mise à jour
+    url: "/whats-new.html"
+  - title: Commencez
+    entries:
+    - title: Découvrez le service de calcul
+      url: "/concept-compute.html"
+    - title: Connectez votre compte AWS
+      url: "/task-getting-started-compute.html"
+  - title: Analysez les coûts de calcul
+    url: "/task-analyze-costs.html"
+  - title: Connaissances et support
+    entries:
+    - title: S'inscrire pour obtenir de l'aide
+      url: "/task-support-registration.html"
+    - title: Obtenez de l'aide
+      url: "/task-get-help.html"
+  - title: Mentions légales
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Commencez
+    links:
+    - title: Découvrez le service de calcul
+      url: concept-compute.html
+    - title: Connectez votre compte AWS
+      url: task-getting-started-compute.html
+  - title: Utiliser le service de calcul
+    links:
+    - title: Analysez les coûts de calcul
+      url: task-analyze-costs.html
+  - title: Communauté sur les blogs
+    links:
+    - title: Communauté NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog BlueXP
+      url: https://cloud.netapp.com/blog
+    - title: Webinaires sur le cloud
+      url: https://cloud.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Toute la documentation BlueXP

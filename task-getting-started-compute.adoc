@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: task-getting-started-compute.html 
+keywords: compute, cloud insights, cloud analyzer, connect cloud analyzer, connect management account, connect payer account, aws payer account 
+summary: Réalisez quelques étapes pour analyser de manière approfondie les coûts de vos ressources de calcul cloud avec Cloud Analyzer de Spot. 
+---
+= Connectez Cloud Analyzer à votre compte AWS
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Connectez Cloud Analyzer à votre compte payeur AWS pour que vous puissiez commencer à optimiser vos coûts de calcul cloud.
+
+.Étapes
+. Dans le menu de navigation, sélectionnez *Extensions > Cloud OPS*.
+. Cliquez sur *Ajouter les informations d'identification AWS pour démarrer*.
+. Suivez les étapes indiquées sur la page pour connecter votre compte AWS :
++
+.. Connectez-vous à votre compte de gestion AWS.
+.. Configurez les rapports sur les coûts et l'utilisation sur le compte AWS.
+.. Exécuter le modèle CloudFormation.
+.. Coller le point RoleARN.
++
+https://help.spot.io/cloud-analyzer/connect-your-aws-account-2/["Afficher plus de détails sur ces étapes"^].
+
++
+image:screenshot_compute_add_account.gif["Capture d'écran affichant chaque champ disponible sur la page de connexion."]
+
+
+
+
+
+Cloud Analyzer commence à traiter les données de votre compte AWS. Si vous avez plusieurs comptes, Cloud Analyzer commence par des fonctionnalités en lecture seule pour tous les comptes liés sous le compte de gestion. Si vous souhaitez obtenir plus d'informations sur les économies potentielles pour ces comptes, vous devrez également les connecter. Vous trouverez plus de détails sur la connexion des comptes lorsque vous le souhaitez link:task-analyze-costs.html["analysez les coûts de calcul"].

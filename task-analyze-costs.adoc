@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: task-analyze-costs.html 
+keywords: analyze costs, compute costs, projected costs, savings, cloud analyzer 
+summary: Une fois que vous avez connecté votre compte, consultez une analyse des coûts de vos ressources de cloud computing pour obtenir des informations sur les coûts cloud passés, actuels et futurs. 
+---
+= Analysez les coûts de calcul
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Une fois votre compte connecté, consultez une analyse des coûts des ressources de cloud computing pour obtenir une vue précise des coûts passés, actuels et futurs du cloud.
+
+
+
+== Afficher une analyse des coûts
+
+.Étapes
+. Cliquez sur *Compute*.
+. Consultez l'analyse des coûts pour obtenir des informations sur les coûts de calcul.
+
+
+image:screenshot_compute_dashboard.gif["Capture d'écran qui montre la page analyse des coûts dans BlueXP. Cette page contient les informations décrites dans le texte ci-dessous."]
+
+Coût mois à ce jour:: Coût total de vos charges de travail depuis le début du mois en cours.
+Coûts prévus:: Le coût prévu à la fin du mois, d'après l'analyse de votre modèle d'utilisation.
+Économies manquées de la semaine dernière:: Des économies qui auraient pu être réalisées au cours des sept derniers jours grâce à l'optimisation des instances SPOT et des réservations.
+Efficacité des dépenses pour un compte AWS:: Les 10 plus grands comptes selon le plus grand montant estimé d'économies supplémentaires.
++
+--
+Chaque compte se voit attribuer un score d'efficacité en fonction des économies actuelles et potentielles supplémentaires. Les économies supplémentaires estimées indiquent la somme qui peut être économisée en utilisant les instances ponctuelles et réservées.
+
+Vous pouvez prendre les mesures suivantes pour optimiser davantage vos comptes :
+
+* *Afficher les détails*: Affichez vos possibilités d'optimisation des coûts en accédant à Cloud Analyzer de Spot.
+* *Connect* : permet de connecter un compte qui n'est pas encore géré. Vous serez dirigé vers l'assistant qui connecte le compte.
+
+
+--
+Principaux comptes AWS:: Il s'agit d'un graphique à barres indiquant les dix principaux comptes en fonction de leur coût. Le graphique est basé sur les 30 derniers jours de l'activité de dépense.
+
+
+https://help.spot.io/cloud-analyzer/cost-analysis/["Découvrez la page d'analyse des coûts disponible dans le Cloud Analyzer de Spot"^].
+
+
+
+== Obtenez une analyse complète
+
+Accédez à Cloud Analyzer pour plus d'analyse et de recommandations.
+
+Cliquez sur *Get Full Analysis* à tout moment pour accéder à plus de graphiques et d'analyses, des recommandations détaillées, une description de l'optimisation des cas d'utilisation (conteneurs, ElasticApps, et réservations), et plus encore.
+
+Voici un exemple de ce que vous verrez dans Cloud Analyzer :
+
+image:screenshot_compute_dashboard_spot.gif["Capture d'écran affichant la page d'analyse des coûts dans Cloud Analyzer de Spot."]
+
+* https://spot.io/products/cloud-analyzer/["Consultez la page produit de Cloud Analyzer pour en savoir plus sur ses fonctionnalités"^]
+* https://help.spot.io/cloud-analyzer/["Consultez la documentation de Spot pour obtenir de l'aide sur Cloud Analyzer"^]
+
