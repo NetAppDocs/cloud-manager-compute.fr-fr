@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud-manager-compute | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/fr-fr/cloud-manager-compute/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/fr-fr/cloud-manager-compute</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>fr-fr</language>
+    <ttl>60</ttl>
+    <pubDate>Thu, 17 Nov 2022 07:07:11 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Nov 2022 07:07:11 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>Quoi de neuf (17 Nov 2022)</title>
+      <pubDate>Thu, 17 Nov 2022 07:04:21 +0000</pubDate>
+      <link>https://docs.netapp.com/fr-fr/cloud-manager-compute/whats-new.html?time=1668668661</link>
+      <guid isPermaLink="false">Thu, 17 Nov 2022 07:04:21 +0000</guid>
+      <description><![CDATA[ Découvrez les nouveautés du service de calcul dans BlueXP (anciennement Cloud Manager). ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
